@@ -187,9 +187,7 @@ def start_game():
                                  enemy["attack"] = int(round(enemy["attack"] * 1.1))
                                  enemy["lv"] += 1
                                  enemy["defense"] = int(round(enemy["defense"] * 1.05))
-                        
-                                 #made by 6c11!!!! 
-                                          enemy["health"] = int(round(enemy["health"] * 1.1))
+                                 enemy["health"] = int(round(enemy["health"] * 1.1))
                                  enemy["exp"] += 5
                                  enemy["gold"] = int(round(enemy["gold"] * 1.1)) 
                                  
@@ -332,7 +330,7 @@ def start_game():
         
         elif choice == "4":
             print("alt f4。")
-            print("made by 6c11 not other!!!) 
+            print("made by 6c11 not other!!!") 
             sys.exit()
 #made by 6c11!!!! 
 
@@ -413,6 +411,7 @@ def start_game():
                          player["max_health"] = player["max_health"] + 100
                     else:
                          print("u have no stats pooorr")
+#made by 6c11!!!! 
                 if stats_choice == "4":
                     if player["stats"] > 9:
                         player["stats"] = player["stats"] - 10
